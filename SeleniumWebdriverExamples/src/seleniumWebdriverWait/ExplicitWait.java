@@ -12,7 +12,7 @@ public class ExplicitWait {
 		System.setProperty("webdriver.chrome.driver", "give the path of chrome in your desktop" );
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("http://seleniumpractise.blogspot.in/2...");
+		driver.get("http://www.qaautomated.com/");
 		driver.manage().window().maximize();  //to maximize
 		
 		WebDriverWait wait = new WebDriverWait(driver,20);

@@ -1,2 +1,2 @@
 # SeleniumWebdriverExamples
-This repository contains all the webdriver examples. 
+This repository contains all the Seleniium webdriver examples. 

@@ -18,7 +18,14 @@ public class HandleAlert{
 		WebElement submit = driver.findElement(By.id("searchBtn"));
 		submit.click();
 		Thread.sleep(3000);
-		System.out.println(driver.switchTo().alert().getText());
+		String message = driver.switchTo().alert().getText();
+		System.out.println(message);
+		if(message.equals("please enter a valid user name")) {
+			System.out.println("correct message - proceed");
+		}
+		else {
+			System.out.println("Incorrect message dismiss");
+		}
 		driver.switchTo().alert().accept(); //accept the alert 
 //		driver.switchTo().alert().dismiss(); //dismiss the alert
 		driver.close();

@@ -28,6 +28,7 @@ public class NumberOfLinksInpage {
 		boolean enable = links.get(i).isEnabled();
 		System.out.println(enable);
 		System.out.println(Linktext);
+		driver.close();
 	}
 	}
 

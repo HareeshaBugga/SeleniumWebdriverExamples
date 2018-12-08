@@ -1,5 +1,5 @@
 # SeleniumWebdriverExamples
-This repository contains all the Seleniium webdriver examples. 
+This repository contains all the Selenium webdriver examples. 
 
 #ActionsMethod: 
   >Drag and drop.

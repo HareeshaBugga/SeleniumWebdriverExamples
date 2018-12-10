@@ -26,3 +26,5 @@ This repository contains all the Selenium webdriver examples.
  #Take A ScreenShot
  
  #Headless Browsing using HTML Unit Driver
+ 
+ #Handling Dynamic Search - using google.
